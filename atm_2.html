@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ATM Application</title>
+    <link rel="stylesheet" type="text/css" href="../OG_ATM/Atm.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div><h1>Bank Name</h1></div>
+      <!-- <div>
+        <img
+          src="https://buildbot.tech/assets/buildbot-dark-1x1.png"
+          style="width: 200px"
+        />
+      </div> -->
+      <div class="header-btw">
+        <div>
+          <h3>Account Number: <span id="accountNumber"></span></h3>
+        </div>
+        <div>
+          <h3>User Name: <span id="userName"></span></h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-bar">
+      <a href="#" onclick="showBalance()">Check Balance</a>
+      <a href="#" onclick="withdraw()">Withdraw</a>
+      <a href="#" onclick="deposit()">Deposit</a>
+      <a href="#" onclick="changePin()">Change Pin</a>
+      <a href="#" onclick="miniStatement()">Mini Statement</a>
+      <a href="#" onclick="logout()">Logout</a>
+    </div>
+
+    <div class="content">
+      <!-- Content will be displayed here -->
+    </div>
+    <script src="../OG_ATM/Atm.js"></script>
+  </body>
+</html>

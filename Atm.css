@@ -1,0 +1,226 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    top: 0;
+    margin: 0;
+  }
+
+  .header {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-btw {
+    display: flex;
+  }
+  .content {
+    margin: 0 auto;
+    /* max-width: 600px; */
+    /* padding: 20px; */
+    text-align: center;
+    padding: 20px;
+    color: black;
+  }
+  p {
+    color: #293f3f;
+  }
+
+  .header h1,
+  .header h3 {
+    margin: 0;
+  }
+  .header {
+    display: none;
+  }
+  h2 {
+    color: black;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .nav-bar {
+    float: left;
+    width: 150px;
+    background-color: #293f3f;
+    padding: 10px;
+    height: calc(100vh - 40px);
+  }
+
+  .nav-bar a {
+    display: block;
+    padding: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #f2f2f2;
+  }
+  .login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #eff5fb;
+    border: 1px solid #000;
+    padding: 20px;
+  }
+
+  .login-form h2 {
+    margin-top: 0;
+  }
+
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+  }
+
+  .login-form button {
+    display: block;
+    width: 20%;
+    padding: 10px;
+    background-color: #293f3f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .login-form button:hover {
+    background-color: #000;
+  }
+
+  .login-form .error {
+    color: red;
+    margin-top: 10px;
+  }
+
+  .popup {
+    background-color: #eff5fb;
+    border: 1px solid #000;
+    padding: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .error {
+    color: red;
+  }
+
+  .success {
+    color: green;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 40px;
+  }
+
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #cef6f5;
+  }
+
+  .success {
+    color: green;
+  }
+
+  .failed {
+    color: red;
+  }
+  .title {
+    font-size: 24px;
+    color: #333333;
+  }
+
+  .input-field {
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+  }
+
+  /* .button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  } */
+
+  .error-message {
+    color: #ff0000;
+    font-size: 14px;
+  }
+  .balance-check,
+  .withdraw,
+  .withdraw-success,
+  .deposit,
+  .deposit-success,
+  .change-pin,
+  .mini-statement {
+    margin-bottom: 20px;
+  }
+
+  .title {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 10px;
+  }
+
+  .input-field {
+    padding: 8px;
+    border: 1px solid #a4a4a4;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  .error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  /* .button {
+    padding: 8px 16px;
+    background-color: #293f3f;
+    color: #F2F2F2;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  } */
+
+  .withdraw-success,
+  .deposit-success {
+    background-color: #eff5fb;
+    padding: 10px;
+  }
+
+  .button {
+    padding: 8px 16px;
+    background-color: #293f3f;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .button:hover {
+    background-color: #525555;
+  }
+
+  .withdraw-success,
+  .deposit-success {
+    background-color: #eff5fb;
+    padding: 10px;
+  }
